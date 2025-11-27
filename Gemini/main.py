@@ -2,7 +2,7 @@ import google.generativeai as genai
 import os
 
 #Definindo o caminho que esta a chave (Para fins de teste, deve estar na mesma pasta que o .py)
-caminho = os.path.join(os.path.dirname(__file__), 'google_key.txt')
+caminho = os.path.join(os.path.dirname(__file__), 'Google_key.txt')
 
 #Lendo a chave do arquivo
 with open(caminho, 'r') as arquivo:
