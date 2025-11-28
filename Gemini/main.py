@@ -22,7 +22,7 @@ for modelo in modelos:
 
 modelo = genai.GenerativeModel('gemini-2.0-flash')
 
-prompt = 'Me liste ideias de cafés da manhã simples?'
+prompt = 'Qual a cor do sol?'
 #input('Digite um prompt: ')
 
 resposta_modelo = modelo.generate_content(
